@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<h1 align="center">가입신청</h1>
+
+<style>
+    * {margin:0; padding:10;}
+     #wrap{border:2px solid rgb(212, 240, 148); margin: 0 auto; font-size: 15px; color:rgb(0, 0, 0) ;padding:10px; width: 800px;height: 800px; background-color:rgb(247, 248, 174);}
+     #box1{ box-sizing:border-box; padding:10px; font-size: 15px; color:black; width: 800px; height: 40px; background-color: rgb(241, 191, 210);}
+     #content1{overflow:scroll;  font-size: 15px; color:black; height:200px;}
+     #box2{ box-sizing:border-box; padding:10px; font-size: 15px; color:black; width: 800px; height: 40px; background-color: rgb(241, 191, 210);}
+     #content2{overflow:scroll;  font-size: 15px; color:black; height:200px;}
+     #chk_all{font-size: 15px; text-align:right;}  
+     #btn{text-align:center; }
+ </style>
+</head>
+<body>
+ <div id="wrap">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo illum rerum amet omnis et reprehenderit aperiam, deleniti ipsa. Possimus rem odio ipsa praesentium blanditiis laboriosam dolorem expedita laborum quis.
+    ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.</p>
+    
+        <div id="chk_all"><input type="checkbox" id="chk_1">전체 동의합니다.</div>
+    
+    
+    <div id="box1">앱스토어 전자상거래 이용약관</div>
+    <div id="content1">    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo illum rerum amet omnis et reprehenderit aperiam, deleniti ipsa. Possimus rem odio ipsa praesentium blanditiis laboriosam dolorem expedita laborum quis.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo illum rerum amet omnis et reprehenderit aperiam, deleniti ipsa. Possimus rem odio ipsa praesentium blanditiis laboriosam dolorem expedita laborum quis.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo illum rerum amet omnis et reprehenderit aperiam, deleniti ipsa. Possimus rem odio ipsa praesentium blanditiis laboriosam dolorem expedita laborum quis.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.</p></div>
+
+
+    <div id="chk_all"><input type="checkbox" id="chk_2">위의 사항에 대해 동의합니다.</div>    
+
+    <div id="box2">앱스토어 전자상거래 이용약관</div>
+    <div id="content2">    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo illum rerum amet omnis et reprehenderit aperiam, deleniti ipsa. Possimus rem odio ipsa praesentium blanditiis laboriosam dolorem expedita laborum quis.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo illum rerum amet omnis et reprehenderit aperiam, deleniti ipsa. Possimus rem odio ipsa praesentium blanditiis laboriosam dolorem expedita laborum quis.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo illum rerum amet omnis et reprehenderit aperiam, deleniti ipsa. Possimus rem odio ipsa praesentium blanditiis laboriosam dolorem expedita laborum quis.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.
+            ssumenda non earum excepturi repudiandae harum esse, mollitia dolorum modi vitae.</p></div>
+
+    <div id="chk_all"><input type="checkbox" id="chk_3">위의 사항에 대해 동의합니다.</div>
+    <div id="btn"><button onclick=goPage('/signup')>가입하기</button></div>       
+ </div>
+ <script>
+function goPage(url) {
+	location.href = '/res' + url;
+
+}
+ </script>
+  
+</body>
+</html>
